@@ -47,5 +47,23 @@
     <string>Upload image from camera for screen background</string>
     <key>NSMicrophoneUsageDescription</key>
     <string>Post videos to profile</string>
+    <key>LSApplicationQueriesSchemes</key>
+    <array>
+      <string>https</string>
+      <string>http</string>
+    </array>
+   <key>CFBundleURLTypes</key>
+   <array>
+   	<dict>
+   		<key>CFBundleTypeRole</key>
+   		<string>Editor</string>
+   		<key>CFBundleURLSchemes</key>
+   		<array>
+   			<!-- TODO Replace this value: -->
+   			<!-- Copied from GoogleService-Info.plist key REVERSED_CLIENT_ID -->
+   			<string>com.googleusercontent.apps.748792481093-h73sl5dvotjr36us0v2ujn7uni3id504</string>
+   		</array>
+   	</dict>
+   </array>
 </dict>
 </plist>
